@@ -95,17 +95,23 @@ top : " prob "
 
 ### 3D modeling of the coating
 
+We have designed the coating for the camera. It is a hollow cube with external size 34x34x34mm and internal size 30x30x32mm with a window for the lens and a rectangular opening for the cable, which has to be additionally sealed with glue. 
 
-
-
-
-## Results
-
-The instrument works properly, but the sounds are horrible. I do not think that we can consider that as a music...
-
-![design overview](box1.jpg) 
 ![design overview](box2.png) 
 ![design overview](printer.JPG) 
 
+There was a mistake in the first design, because the lens window was located improperly, so the second attempt was much better.
+
+### Bird feeder
+
+We chose a plastic box for laundry (60x50x40 cm) as a base for bird feeder, because it is heavy and big enough for our experiment.
+
+![design overview](box1.jpg) 
+
+## Results
+
+
+
+
 ## Sourses:
-- [Wiki.amperka.ru] (https://wiki.amperka.ru/%D0%BA%D0%BE%D0%BD%D1%81%D0%BF%
+- (https://habr.com/ru/articles/322520/)

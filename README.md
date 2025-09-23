@@ -103,9 +103,9 @@ top : " prob "
 
 The instrument works properly, but the sounds are horrible. I do not think that we can consider that as a music...
 
-![design overview](IMG_2967.jpeg) 
-![design overview](IMG_2968.jpeg) 
-![design overview](IMG_2969.jpeg) 
+![design overview](box1.jpg) 
+![design overview](box2.png) 
+![design overview](printer.JPG) 
 
 ## Sourses:
 - [Wiki.amperka.ru] (https://wiki.amperka.ru/%D0%BA%D0%BE%D0%BD%D1%81%D0%BF%

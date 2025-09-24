@@ -1,11 +1,8 @@
-## Author:
-Anastasiia Britan
-
 ## Description of the project
 
 We tried to re-create an automatic bird feeder from the article (https://habr.com/ru/articles/322520/) by Maltsev Anton, using Raspberry Pi.
 
-## Construction of the instrument
+## Construction
 
 As a base for this project we used a plastic box for laundry (60x50x40 cm) as a base for bird feeder. At the top wall we decided to put a Raspberry Pi camera, covered in plastic coating for making it waterproof. We decided that Raspberry shouldn't be put outside, because the weather might be too harsh for the computer, so there is no waterproof coating for this component.
 
@@ -102,15 +99,40 @@ We have designed the coating for the camera. It is a hollow cube with external s
 
 There was a mistake in the first design, because the lens window was located improperly, so the second attempt was much better.
 
-### Bird feeder
+![design overview](IMG_1115.jpeg) 
 
-We chose a plastic box for laundry (60x50x40 cm) as a base for bird feeder, because it is heavy and big enough for our experiment.
+### Bird feeder base
 
-![design overview](box1.jpg) 
+We have chosen a plastic box for laundry (60x50x40 cm) as a base for the bird feeder, because it is heavy and big enough for our experiment. For more precise results we have decided to add a cutting mat infront of the camera, so the background is always the same.
+
+![design overview](IMG_1114.jpeg) 
+
+### Raspberry Pi camera
+
+We used an original Camera Module 3 with autofocus and a 12-megapixel sensor. 
+
+### Issues with Raspberry Pi
+
+There was a problem with the first Raspberry Pi computer, because due to unnown reasons, it stopped seeing the camera after a few attempts to capture enough photoes, so we had to switch to another Raspberry Pi computer. The fist computer stopped working at all, so we had to redo a part of the process, but some of the files were saved in a memory card.
+
+### Preparing pictures
+
+We made two directories "Train" and "Validation". Each one of them contains two groups of pictures "Bird" and "No bird". We needed to take pictures with different lighting and different positions of the "bird" (we used a paper sticker for the first draft, because it would take too much time to train tghe model on real birds. Of course, this draft can only find stickers, but we needed to understand caffe better for more complicated work).
+
+### No bird
+![design overview](image_0000.jpg) 
+![design overview](image_0021.jpg) 
+### Bird
+![design overview](image_0019.jpg) 
+![design overview](image_0003.jpg) 
+
+The least demanding model needed around 120 pictures with birds and the same amount of pictures with no birds, so each one of the four repositories contains of 60 pictures.
+
+![design overview](IMG_1116.jpeg) 
 
 ## Results
 
-
+Obviously, it is just a part of the bigger project. Sadly, we have not got enough time to finish it properly, because none of us has ever worked with caffe or anything related to AI, but the main factor was the broken Raspberry Pi, which destroyed a part of our work and made us start again. We learned many different things while doing this project, so it was a great way to understand how to construct more complicated systems like this.
 
 
 ## Sourses:
